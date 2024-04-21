@@ -7,16 +7,17 @@ import Footer from '../Footer/Footer'
 
 export default function Header() {
   return (
-    <section className={styles.sectionHeader}>
+    <section className={styles.sectionHeader} >
 
       <header className={styles.header}>
-        <NavLink className={styles.homeLink} to="/">
+        <NavLink aria-label='link' className={styles.homeLink} to="/">
           <img src={code_icon} alt="code icon" className={`${styles.codeIcon} ${styles.rollInLeft}`} />
-          <span className={`${styles.rollInLeft} ${styles.back}`}></span>
+          <span aria-label='intro' className={`${styles.rollInLeft} ${styles.back}`}>Intro</span>
         </NavLink>
-        <div className={styles.divContainer}>
-          <h1 className={`${styles.h1} ${styles.bounceInTop}`}>  Arie GonzAgüer</h1>
-          <p className={`${styles.p} ${styles.slideInFwdCenter}`}>Simple, Neat, Accessible Web Design</p>
+
+        <div role="banner" className={styles.divContainer}>
+          <h1 ria-label="name of the devoloper" className={`${styles.h1} ${styles.bounceInTop}`}>  Arie GonzAgüer</h1>
+          <p aria-label="portpholio description" className={`${styles.p} ${styles.slideInFwdCenter}`}>Simple, Neat, Accessible Web Design</p>
         </div>
         <NavBar />
       </header>

@@ -59,8 +59,8 @@ export default function ProjectsContainer() {
         {
           projects.map((project, index) => (
             <div className={styles.projectDiv} key={index}>
-              <a href={project.href} target="_blank" rel="noreferrer" className={styles.projectLink}>
-                <FontAwesomeIcon icon={project.icon} src={project.src} alt={project.name} className={styles.projectIcon} />
+              <a aria-label='link' href={project.href} target="_blank" rel="noreferrer" className={styles.projectLink}>
+                <FontAwesomeIcon icon={project.icon} src={project.src} alt={project.text} className={styles.projectIcon} />
               </a>
               <h2>{project.name}</h2>
             </div>
