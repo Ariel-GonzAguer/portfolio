@@ -11,7 +11,7 @@ export default function Header() {
 
       <header className={styles.header}>
         <NavLink aria-label='link' className={styles.homeLink} to="/">
-          <img src={code_icon} alt="code icon" className={`${styles.codeIcon} ${styles.rollInLeft}`} />
+          <img src={code_icon} alt="back intro icon" className={`${styles.codeIcon} ${styles.rollInLeft}`} />
           <span aria-label='intro' className={`${styles.rollInLeft} ${styles.back}`}>Intro</span>
         </NavLink>
 
