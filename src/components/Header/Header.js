@@ -7,12 +7,12 @@ import Footer from '../Footer/Footer'
 
 export default function Header() {
   return (
-    <section>
+    <section className={styles.sectionHeader}>
 
       <header className={styles.header}>
         <NavLink className={styles.homeLink} to="/">
           <img src={code_icon} alt="code icon" className={`${styles.codeIcon} ${styles.rollInLeft}`} />
-          <span className={styles.rollInLeft}>Home</span>
+          <span className={`${styles.rollInLeft} ${styles.back}`}></span>
         </NavLink>
         <div className={styles.divContainer}>
           <h1 className={`${styles.h1} ${styles.bounceInTop}`}>  Arie GonzAgüer</h1>

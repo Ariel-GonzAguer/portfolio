@@ -52,9 +52,6 @@ export default function ProjectsContainer() {
   //   return () => clearInterval(intervalId);
   // }, []);
 
-
-
-
   return (
     <section className={styles.projectsSection}>
       <h1>Check out my favorites projects</h1>

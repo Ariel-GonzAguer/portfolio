@@ -32,7 +32,7 @@ export default function TechnologiesContainer() {
           />
         </li>
 
-        <li>
+        <li className={styles.technologiesLi}>
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
@@ -43,7 +43,7 @@ export default function TechnologiesContainer() {
           />
         </li>
 
-        <li>
+        <li className={styles.technologiesLi}>
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
@@ -57,7 +57,7 @@ export default function TechnologiesContainer() {
 
       <h3 className={styles.techTitle}>Technologies that I am learning</h3>
       <ul className={styles.technologiesUl}>
-        <li>
+        <li className={styles.technologiesLi}>
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
@@ -68,7 +68,7 @@ export default function TechnologiesContainer() {
           />
         </li>
 
-        <li>
+        <li className={styles.technologiesLi}>
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
@@ -83,7 +83,7 @@ export default function TechnologiesContainer() {
 
       <h3 className={styles.techTitle}>Technologies I want to learn soon</h3>
       <ul className={styles.technologiesUl}>
-        <li>
+        <li className={styles.technologiesLi}>
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
@@ -94,7 +94,7 @@ export default function TechnologiesContainer() {
           />
         </li>
 
-        <li>
+        <li className={styles.technologiesLi}>
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
@@ -105,11 +105,11 @@ export default function TechnologiesContainer() {
           />
         </li>
 
-        <li>
+        <li className={styles.technologiesLi}>
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
-            data-tooltip-content="TypeScript. Programming language(like a Super JavaScript)"
+            data-tooltip-content="TypeScript. Programming language"
             data-tooltip-place="top"
             src={typescript}
             alt='TypeScript Logo'

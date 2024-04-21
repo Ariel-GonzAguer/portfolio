@@ -4,11 +4,11 @@ import styles from './NavBar.module.css'
 
 export default function NavBar() {
   return (
-    <nav className={`${styles.bounceInRight} ${styles.slideInRight}`}>
+    <nav className={`${styles.bounceInRight} ${styles.slideInRight} ${styles.navBar}`}>
       <ul className={styles.ul}>
-        <li className={styles.li}><NavLink to='/projects'>Projects</NavLink></li>
-        <li className={styles.li}><NavLink to='/aboutMe'>+About Me</NavLink></li>
-        <li className={styles.li}><NavLink to='/contact'>Contact</NavLink></li>
+        <li className={styles.li}><NavLink to='/projects' className={styles.a} >Projects</NavLink></li>
+        <li className={styles.li}><NavLink to='/aboutMe' className={styles.a} >+About Me</NavLink></li>
+        <li className={styles.li}><NavLink to='/contact' className={styles.a} >Contact</NavLink></li>
       </ul>
     </nav>
   )

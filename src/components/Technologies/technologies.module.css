@@ -3,7 +3,10 @@
 }
 
 .technologiesSection {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  border: 1px solid whitesmoke;
+  padding: 50px;
+  width: 60%;
 }
 
 .technologiesSection h3 {
@@ -19,16 +22,22 @@
 .technologiesUl {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: center;
 }
 
 .technologiesLi {
-  list-style: none;
   border-radius: 50px;
+  margin: 5px 20px;
 }
 
 .technologiesLi:hover {
   transition: all 1s ease-in-out;
   background-color: whitesmoke;
   border-radius: 50px;
+}
+
+@media only screen and (max-width: 375px) {
+  .technologiesSection {
+    width: 95%;
+  }
 }

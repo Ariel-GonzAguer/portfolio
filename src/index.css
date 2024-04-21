@@ -10,3 +10,7 @@ html {
   color: #FFFAFA;
   background-color: #2a2b2d
 }
+
+li {
+  list-style: none !important;
+}
