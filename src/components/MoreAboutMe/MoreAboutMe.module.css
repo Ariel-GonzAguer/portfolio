@@ -1,0 +1,21 @@
+.aboutMeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.aboutMeDiv {
+  text-align: center;
+  width: 60%;
+
+}
+
+.aboutMeDiv h2 {
+  font-size: 2.1rem;
+}
+.aboutMeDiv p {
+  line-height: 1.6rem;
+}
+

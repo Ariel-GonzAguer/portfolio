@@ -1,4 +1,7 @@
-import './App.css'
+import React from 'react'
+import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom'
+
+
 import Header from './components/Header/Header'
 import Intro from './components/Intro/Intro'
 import ProjectsContainer from './components/Projects/ProjectsContainer'
@@ -6,17 +9,23 @@ import MoreAboutMe from './components/MoreAboutMe/MoreAboutMe'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
+const router = createBrowserRouter(createRoutesFromElements(
+  <Route path="/" element={<Header/>} >
+    <Route index element={<Intro />} />
+
+    <Route path="/projects" element={<ProjectsContainer />} />
+    <Route path="/aboutMe" element={<MoreAboutMe />} />
+    <Route path="/contact" element={<Contact />} />
+    <Route path="/footer" element={<Footer />} />
+    
+  </Route>
+
+))
+
 function App() {
   return (
-<>
-<Header />
-<Intro />
-<ProjectsContainer />
-<MoreAboutMe />
-<Contact />
-<Footer />
-</>
-  );
+    <RouterProvider router={router} />
+  )
 }
 
 export default App;

@@ -1,18 +1,50 @@
 .contactSection {
   margin: 40px auto;
   text-align: center;
+  width: 60%;
+  line-height: 1.5rem;
+}
+.contactSection p{
+  font-size: 1.1rem;
 }
 
 .contactLinks {
-  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.contactH2 {
+.contactH1 {
   margin-bottom: 20px;
+  font-size: 2rem;
 }
 
-.contactImg {
-  height: 66px;
-  width: auto;
-  padding: 5px;
+.githubImg {
+  height: 176px;
+  width: 176px;
+  padding: 25px;
+}
+
+.gmailImg {
+  height: 166px;
+  width: 166px;
+  padding: 25px;
+}
+
+.linkedinImg {
+  height: 146px;
+  width: 146px;
+  padding: 30px;
+}
+
+.githubImg,
+.gmailImg,
+.linkedinImg {
+  transition: all 0.5s ease-in-out;
+}
+
+.linkedinImg:hover,
+.gmailImg:hover,
+.githubImg:hover {
+  transform: scale(1.1);
 }

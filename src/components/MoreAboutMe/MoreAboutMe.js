@@ -1,24 +1,22 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
-import TechnologiesContainer from './Technologies'
+import TechnologiesContainer from '../Technologies/Technologies'
+import styles from './MoreAboutMe.module.css'
 
 export default function AboutMe() {
   return (
-    <section id='moreAboutMe'>
-    <div>
-    <h2>+ About Me</h2>
-      <p>After several years as a Professional Brewer and several medals in local and international competitions, I found a new joy in programming <FontAwesomeIcon icon={faHeart} />.
-        <br />
-        I love to design minimalistic and clean projects, but also can make fun and neat design. I cook what You tell me!
-        <br />
-        I have been studying for almost half a year this new Front End Engineering career, where I have learned about
-        accessibility, testing, UI & UX, React, good practices and more.
-        <br />
-        I can communicate in English and Español.</p>
-    </div>
-    <TechnologiesContainer />
-      
+    <section className={styles.aboutMeSection}>
+      <div className={styles.aboutMeDiv}>
+        <h2>+ About Me</h2>
+        <p>Hello again. I would like to tell you a little more about who I am.<br />
+          After several years as a professional brewer, winning medals at a local and international level, always focused on meeting objectives and extreme cleanliness in my processes, I wanted to look for new directions for my creativity and desire to help other people, and that is how I found the web development, becoming a new joy.<br /><br />
+          I love creating minimalist and super user-friendly projects, always keeping in mind accessibility, clean design and good practices when writing code.<br />
+          I have been studying this new Front End Development Engineering career at CodeCademy for approximately 9 months, and currently (4/20/24) I am learning/working with React.<br />
+          I love React, by the way!<br /><br />
+          I have knowledge of unit testing with Jest and Mocha, I use Git Bash without problems when creating projects and uploading them to Github, I also know how to make API calls to obtain or send information to third parties. In addition to the above, I have obtained certificates in Design Thinking, Emojicode, Interaction Design, Open Source, UI & UX Design and User Research. Parallel to my education as a Web Developer, I have also certified myself as a Lean Six Sigma White Belt and Remote Work Professional Certification.
+        </p>
+      </div>
+      <TechnologiesContainer />
+
     </section>
   )
 }
