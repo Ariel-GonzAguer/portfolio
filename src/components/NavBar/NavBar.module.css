@@ -110,36 +110,17 @@
 }
 
 @media only screen and (max-width: 425px) {
-  .a::after {
-    content: none;
-  }
-
-  .a::before {
-    content: '/';
-  }
-
-  .a {
-    font-size: 1rem;
-    margin: 0 0.5em;
-  }
-
   .navBar {
     grid-area: 2/1/3/4;
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
-}
 
-@media only screen and (max-width: 375px) {
   .a {
     font-size: 1rem;
     margin: 0 0.5em;
     padding: 2px;
     font-weight: bolder;
-  }
-
-  .navBar {
-    grid-area: 2/1/3/4;
   }
 }

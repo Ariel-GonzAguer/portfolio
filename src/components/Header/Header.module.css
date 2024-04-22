@@ -338,38 +338,3 @@
     height: auto;
   }
 }
-
-@media only screen and (max-width: 375px) {
-  .header {
-    display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid whitesmoke;
-    width: 100%;
-  }
-
-  .h1 {
-    font-size: 1.5rem;
-  }
-
-  .divContainer {
-    grid-area: 1/1/2/3;
-    font-size: 1.2rem;
-  }
-  .p {
-    font-size: 0.9rem;
-  }
-
-
-  .homeLink {
-    grid-area: 2/4/3/5;
-  }
-
-  .codeIcon {
-    width: 30px;
-    height: auto;
-    margin-right: 10px;
-  }
-
- }

@@ -109,12 +109,11 @@
   }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 425px) {
   .introSection {
     width: 95%;
     margin: 0 auto 100px;
     padding: 15px;
-    /* background-color: aqua; */
   }
 
   .divPre {
@@ -129,17 +128,4 @@
   .highlight1 {
     margin: 0
   }
-}
-
-@media only screen and (max-width: 375px) { 
-  .introSection {
-    width: 95%;
-    margin: 0 auto 100px;
-    padding: 15px;
-  }
-  .highlight1 {
-    margin: 0
-  }
-
-
 }

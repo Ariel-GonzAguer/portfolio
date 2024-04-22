@@ -9,12 +9,12 @@ export default function Intro() {
 
   return (
     <section className={`${style.introSection} ${style.slideInFwdCenter}`}>
-      <h2 className={style.h2}>Who is {'{'} Arie {'}'} ?</h2>
+      <h2 className={style.h2}>Who is {'{'} Ariel {'}'} ?</h2>
 
       <div className={style.divPre}>
 
         <p>
-          <span className={style.highlight0}>const</span> <span className={style.arie}>Arie</span> = <span className={style.highlight3}> {'{'} </span>  <br />
+          <span className={style.highlight0}>const</span> <span className={style.arie}>Ariel</span> = <span className={style.highlight3}> {'{'} </span>  <br />
           <span className={style.highlight1}>location:</span><span className={style.highlight2}>'San José, Costa Rica'</span>,<br />
           <span className={style.highlight1}>age:</span><span className={style.highlight2}> 31</span>,<br />
           <span className={style.highlight1}>occupation:</span> <span className={style.highlight3}>[</span>  <span className={style.highlight2}>'Brewer'</span>,<span className={style.highlight2}> 'Web Developer Student'</span> <span className={style.highlight3}>]</span>,<br />

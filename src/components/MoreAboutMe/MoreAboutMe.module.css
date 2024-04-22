@@ -31,12 +31,5 @@
     padding: 15px;
     margin-bottom: 1.5rem;
   }
-}
-
-@media only screen and (max-width: 375px) {
-  .aboutMeDiv {
-    width: 95%;
-    padding: 15px;
-    margin-bottom: 1.5rem;
-  }
+  
 }

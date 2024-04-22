@@ -16,7 +16,7 @@ export default function Header() {
         </NavLink>
 
         <div role="banner" className={styles.divContainer}>
-          <h1 ria-label="name of the devoloper" className={`${styles.h1} ${styles.bounceInTop}`}>  Arie GonzAgüer</h1>
+          <h1 ria-label="name of the devoloper" className={`${styles.h1} ${styles.bounceInTop}`}>  Ariel GonzAgüer</h1>
           <p aria-label="portpholio description" className={`${styles.p} ${styles.slideInFwdCenter}`}>Simple, Neat, Accessible Web Design</p>
         </div>
         <NavBar />

@@ -97,30 +97,8 @@
   .linkedinImg {
     height: 136px;
   }
-}
 
-@media only screen and (max-width: 375px) {
   .contactSection {
-    width: 95%;
-    padding: 15px;
     margin-bottom: 100px;
   }
-
-  .contactLinks {
-    display: block;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .githubImg {
-    height: 166px;
-  }
-
-  .gmailImg {
-    height: 156px;
-  }
-
-  .linkedinImg {
-    height: 136px;
-  }
- }
+}
