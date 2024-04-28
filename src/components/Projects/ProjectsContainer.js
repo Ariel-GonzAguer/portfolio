@@ -15,7 +15,7 @@ const projects = [
   {
     icon: faShieldCat,
     name: 'Michi Cards',
-    href: 'https://diosdenada.github.io/michiCards/',
+    href: 'https://michicards.netlify.app/',
     text: `Michi Cards, Create Your Own Cat Cards Collection!`
   },
 
