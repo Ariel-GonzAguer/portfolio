@@ -11,10 +11,11 @@ export default function Contact() {
       <section id='contact' className={styles.contactSection}>
         <h1 className={styles.contactH1}>Contact</h1>
         <div>
-          <p>I would love to participate in your projects. I can design, write code, make unit tests and made UX Research.<br />
-            I can work in place (depending on location) or remotely, I perform very well when working in a team as well as
-            alone.<br />
-            Together we can create something beautiful and fun.</p>
+          I would love to work alongside you and your team.<br />
+          I can work alone or work shoulder to shoulder with great people.<br />
+          You can count on me to write code, perform UX research, do manual and basic unit tests. In general, to solve problems and achieve objectives in a creative and specific way.<br />
+          I can work in person (depending on location) or remotely, full-time, part-time or on a project basis.<br />
+          Working together, I know we can achieve something sharp and beautiful.
         </div>
 
         <div className={styles.contactLinks}>
