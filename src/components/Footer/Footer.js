@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <section aria-label='footer' className={styles.footer} style={{background: '#333'}}>
       <footer >
-        <p>Made in Costa Rica with ❤️ by Arie GonzAgüer</p>
+        <p>Made in Costa Rica with ❤️ by Ariel GonzAgüer</p>
       </footer>
     </section>
   )
