@@ -88,10 +88,6 @@
   .a::after {
     content: none;
   }
-
-  .a::before {
-    content: '/';
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -102,10 +98,6 @@
 
   .a::after {
     content: none;
-  }
-
-  .a::before {
-    content: '/';
   }
 }
 
