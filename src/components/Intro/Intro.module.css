@@ -45,8 +45,8 @@
 }
 
 .slideInFwdCenter {
-  -webkit-animation: slide-in-fwd-center 3s ease-out 3s both;
-  animation: slide-in-fwd-center 3s ease-out 3s both;
+  -webkit-animation: slide-in-fwd-center 2.75s ease-out 2.75s both;
+  animation: slide-in-fwd-center 2.75s ease-out 2.75s both;
 }
 
 /* ----------------------------------------------
