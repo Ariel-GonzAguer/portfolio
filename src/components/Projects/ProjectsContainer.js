@@ -53,7 +53,7 @@ export default function ProjectsContainer() {
   // }, []);
 
   return (
-    <section className={styles.projectsSection}>
+    <section className={`${styles.projectsSection} ${styles.slideInFwdCenter}`}>
       <h1>Check out my favorites projects</h1>
       <div className={styles.vento}>
         {

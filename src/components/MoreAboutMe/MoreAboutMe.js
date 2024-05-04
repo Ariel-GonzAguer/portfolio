@@ -4,7 +4,7 @@ import styles from './MoreAboutMe.module.css'
 
 export default function AboutMe() {
   return (
-    <section className={styles.aboutMeSection}>
+    <section className={`${styles.aboutMeSection} ${styles.slideInFwdCenter}`}>
       <div className={styles.aboutMeDiv}>
         <h1 className={styles.h1}>+ About Me</h1>
         <p>Hello again. I would like to tell you a little more about who I am.<br />

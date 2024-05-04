@@ -8,7 +8,7 @@ import gmail from '../Technologies/icons/gmail.svg'
 export default function Contact() {
   return (
     <>
-      <section id='contact' className={styles.contactSection}>
+      <section id='contact' className={`${styles.contactSection} ${styles.slideInFwdCenter}`}>
         <h1 className={styles.contactH1}>Contact</h1>
         <div>
           I would love to work alongside you and your team.<br />
