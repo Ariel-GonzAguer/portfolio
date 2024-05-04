@@ -10,7 +10,7 @@ import javascript from './icons/javascript.svg'
 import mocha from './icons/mocha.svg'
 import react from './icons/react.svg'
 import typescript from './icons/typeScript.svg'
-import vue from './icons/vue.svg'
+import redux from './icons/redux.svg'
 
 
 export default function TechnologiesContainer() {
@@ -72,10 +72,10 @@ export default function TechnologiesContainer() {
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
-            data-tooltip-content="Bootstrap. CSS Framework"
+            data-tooltip-content="Redux. State Management Library"
             data-tooltip-place="top"
-            src={bootstrap}
-            alt='Boostrap Logo'
+            src={redux}
+            alt='Redux Logo'
           />
         </li>
 
@@ -98,10 +98,10 @@ export default function TechnologiesContainer() {
           <img
             className={styles.technologiesImg}
             data-tooltip-id="my-tooltip"
-            data-tooltip-content="Vue. JavaScript Framework"
+            data-tooltip-content="Bootstrap. CSS Framework"
             data-tooltip-place="top"
-            src={vue}
-            alt='Vue Logo'
+            src={bootstrap}
+            alt='Bootstrap Logo'
           />
         </li>
 
