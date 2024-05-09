@@ -31,6 +31,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+/* texto "tooltip" con puro css. más position: relative en el elemento */
+.homeLink:hover::after {
+  content: 'Intro';
+  position: absolute;
+  bottom: 100%;
 }
 
 .divContainer {

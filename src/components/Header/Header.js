@@ -12,11 +12,10 @@ export default function Header() {
       <header className={styles.header}>
         <NavLink aria-label='link' className={styles.homeLink} to="/">
           <img src={code_icon} alt="back intro icon" className={`${styles.codeIcon} ${styles.rollInLeft}`} />
-          <span aria-label='intro' className={`${styles.rollInLeft} ${styles.back}`}>Intro</span>
         </NavLink>
 
         <div role="banner" className={styles.divContainer}>
-          <h1 ria-label="name of the devoloper" className={`${styles.h1} ${styles.bounceInTop}`}>  Ariel GonzAgüer</h1>
+          <h1 aria-label="name of the devoloper" className={`${styles.h1} ${styles.bounceInTop}`}>  Ariel GonzAgüer</h1>
           <p aria-label="portpholio description" className={`${styles.p} ${styles.slideInFwdCenter}`}>Simple, Neat, Accessible Web Design</p>
         </div>
         <NavBar />
