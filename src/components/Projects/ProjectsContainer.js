@@ -29,7 +29,7 @@ const projects = [
   {
     icon: faUniversalAccess,
     name: 'Accesibilidad',
-    href: 'https://app.netlify.com/sites/starter-kit-accessibility/overview',
+    href: 'https://starter-kit-accessibility.netlify.app',
     text: `Accesibilidad, A web page that shows the accessibility of a website.`
   }
 ];
