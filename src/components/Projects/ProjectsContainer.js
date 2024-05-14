@@ -7,7 +7,7 @@ const projects = [
   {
     icon: faBurger,
     name: 'Porto Burger',
-    href: 'https://diosdenada.github.io/Port-O-Burger/',
+    href: ' https://ariel-gonzaguer.github.io/Port-O-Burger/',
     text: `Port-O-Burger 🍔
     This is a fictional project about a vegan burger restaurant called Port-O-Burger, created as an internship in Front End Development learning. I've used HTML, CSS, and a bit of vanilla JavaScript.`
   },
@@ -22,14 +22,14 @@ const projects = [
   {
     icon: faSeedling,
     name: 'PlantAPP',
-    href: 'https://diosdenada.github.io/PlantAPP',
+    href: '#',
     text: `PlantAPP 🌱`
   },
 
   {
     icon: faUniversalAccess,
     name: 'Accesibilidad',
-    href: 'https://diosdenada.github.io/Accesibilidad/',
+    href: 'https://app.netlify.com/sites/starter-kit-accessibility/overview',
     text: `Accesibilidad, A web page that shows the accessibility of a website.`
   }
 ];
