@@ -19,7 +19,7 @@ export default function Contact() {
         </div>
 
         <div className={styles.contactLinks}>
-          <a href="https://github.com/diosDeNada" target="_blank" rel="noreferrer"><img src={github} alt="GitHub logo"
+          <a href="https://github.com/Ariel-GonzAguer" target="_blank" rel="noreferrer"><img src={github} alt="GitHub logo"
             className={styles.githubImg} /></a>
 
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ariegonzaguer@gmail.com" target="_blank" rel="noreferrer"><img
