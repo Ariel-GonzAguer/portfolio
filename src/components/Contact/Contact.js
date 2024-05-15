@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <>
       <section id='contact' className={`${styles.contactSection} ${styles.slideInFwdCenter}`}>
-        <h1 className={styles.contactH1}>Contact</h1>
+        <h2 className={styles.contactH2}>Contact</h2>
         <div>
           I would love to work alongside you and your team.<br />
           I can work alone or work shoulder to shoulder with great people.<br />

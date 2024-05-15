@@ -19,7 +19,7 @@ export default function TechnologiesContainer() {
     <section className={styles.technologiesSection}>
       <Tooltip id="my-tooltip" />
 
-      <h1 className={styles.techTitle}>Technologies I have worked with</h1>
+      <h2 className={styles.techTitle}>Technologies I have worked with</h2>
       <ul className={styles.technologiesUl}>
         <li className={styles.technologiesLi}>
           <img
@@ -55,7 +55,7 @@ export default function TechnologiesContainer() {
         </li>
       </ul>
 
-      <h1 className={styles.techTitle}>Technologies that I am learning</h1>
+      <h2 className={styles.techTitle}>Technologies that I am learning</h2>
       <ul className={styles.technologiesUl}>
         <li className={styles.technologiesLi}>
           <img
@@ -81,7 +81,7 @@ export default function TechnologiesContainer() {
 
       </ul>
 
-      <h1 className={styles.techTitle}>Technologies I want to learn soon</h1>
+      <h2 className={styles.techTitle}>Technologies I want to learn soon</h2>
       <ul className={styles.technologiesUl}>
         <li className={styles.technologiesLi}>
           <img

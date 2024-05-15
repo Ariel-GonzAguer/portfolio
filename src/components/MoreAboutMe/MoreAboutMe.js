@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <section className={`${styles.aboutMeSection} ${styles.slideInFwdCenter}`}>
       <div className={styles.aboutMeDiv}>
-        <h1 className={styles.h1}>+ About Me</h1>
+        <h2 className={styles.h2}>+ About Me</h2>
         <p>Hello again. I would like to tell you a little more about who I am.<br />
           After several years as a professional brewer, winning medals at a local and international level, always focused on meeting objectives and extreme cleanliness in my processes, I wanted to look for new directions for my creativity and desire to help other people, and that is how I found the web development, becoming a new joy.<br /><br />
           I love creating minimalist and super user-friendly projects, always keeping in mind accessibility, clean design and good practices when writing code.<br />
