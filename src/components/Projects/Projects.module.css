@@ -11,8 +11,13 @@
   text-align: center;
 }
 
+.projectsSection p {
+  margin-bottom: 10px;
+}
+
 .vento {
-  display: grid;
+  /* display: grid; */
+  display: flex;
   grid-template: repeat(2, 1fr) / repeat(2, 1fr);
   gap: 10px;
   border: 1px solid whitesmoke;

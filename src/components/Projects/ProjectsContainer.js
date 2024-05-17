@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBurger, faShieldCat, faSeedling, faUniversalAccess} from '@fortawesome/free-solid-svg-icons'
+import { faBurger, faShieldCat, faSeedling, faUniversalAccess } from '@fortawesome/free-solid-svg-icons'
 import styles from "./Projects.module.css"
 
 const projects = [
@@ -19,19 +19,19 @@ const projects = [
     text: `Michi Cards, Create Your Own Cat Cards Collection!`
   },
 
-  {
-    icon: faSeedling,
-    name: 'PlantAPP',
-    href: '#',
-    text: `PlantAPP 🌱`
-  },
+  // {
+  //   icon: faSeedling,
+  //   name: 'PlantAPP',
+  //   href: '#',
+  //   text: `PlantAPP 🌱`
+  // },
 
-  {
-    icon: faUniversalAccess,
-    name: 'Accesibilidad',
-    href: 'https://starter-kit-accessibility.netlify.app',
-    text: `Accesibilidad, A web page that shows the accessibility of a website.`
-  }
+  // {
+  //   icon: faUniversalAccess,
+  //   name: 'Accesibilidad',
+  //   href: 'https://starter-kit-accessibility.netlify.app',
+  //   text: `Accesibilidad, A web page that shows the accessibility of a website.`
+  // }
 ];
 
 export default function ProjectsContainer() {
@@ -55,6 +55,7 @@ export default function ProjectsContainer() {
   return (
     <section className={`${styles.projectsSection} ${styles.slideInFwdCenter}`}>
       <h2>Check out my favorites projects</h2>
+      <p>(more comming)</p>
       <div className={styles.vento}>
         {
           projects.map((project, index) => (
