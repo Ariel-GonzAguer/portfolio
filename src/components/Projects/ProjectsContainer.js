@@ -1,7 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBurger, faShieldCat, faSeedling, faUniversalAccess } from '@fortawesome/free-solid-svg-icons'
+// faUniversalAccess, faSeedling
+import { faBurger, faShieldCat } from '@fortawesome/free-solid-svg-icons'
 import styles from "./Projects.module.css"
+
+
 
 const projects = [
   {
