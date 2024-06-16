@@ -4,7 +4,3 @@ Holas. This repository is dedicated to my personal portfolio. It is made with [[
 For the general icons I used the [[FontAwsome](https://fontawesome.com/)] library, for the internal navigation I used [[React Router](https://reactrouter.com/en/main)].
 
 I appreciate any constructive criticism or suggestion 🌟
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)📎
