@@ -13,13 +13,16 @@
 
 .projectsSection p {
   margin-bottom: 10px;
+  width: 80%;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
 .vento {
   /* display: grid; */
   display: flex;
-  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-  gap: 10px;
+  /* grid-template: repeat(2, 1fr) / repeat(2, 1fr); */
+  /* gap: 10px; */
   border: 1px solid whitesmoke;
   width: 80%;
   height: auto;
@@ -27,9 +30,15 @@
   margin-bottom: 50px;
 }
 
+/* .tooltip {
+  width: 100px;
+} */
+
 .projectDiv {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   width: 1fr;
   height: 1fr;
@@ -137,6 +146,10 @@
   .projectDiv h2 {
     font-size: 1.2rem;
   }
+
+  .tooltip {
+    width: 100vw;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -161,4 +174,5 @@
   .projectDiv h2 {
     font-size: 1rem;
   }
+  
 }
