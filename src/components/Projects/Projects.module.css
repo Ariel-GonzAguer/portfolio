@@ -28,6 +28,8 @@
   height: auto;
   padding: 55px;
   margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* .tooltip {
@@ -63,7 +65,7 @@
 }
 
 .projectDiv h2 {
-  margin: 10px auto;
+  margin: 10px 0;
 }
 
 .projectIcon {
@@ -129,6 +131,8 @@
     width: 95%;
     padding: 15px;
     margin-bottom: 100px;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .projectIcon {
@@ -138,9 +142,12 @@
 
   .projectDiv {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
+    margin: 0 auto;
+    /* border: 15px solid red; */
   }
 
   .projectDiv h2 {
@@ -169,6 +176,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
   }
 
   .projectDiv h2 {

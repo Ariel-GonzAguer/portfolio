@@ -19,18 +19,18 @@ const projects = [
   },
 
   {
+    icon: faRedditAlien,
+    name: "Red-dit",
+    href: "#",
+    text: `This web app is part of CodeCademy's Front End Development Engineering curriculum. For this project the objective is to create a web app that uses the Reddit API, React, Redux and OAuth 2.0. The application will allow users to view and search posts and comments provided by the API.`,
+  },
+
+  {
     icon: faShieldCat,
     name: "Michi Cards",
     href: "https://michicards.netlify.app/",
     text: `With this web app You can create cards similar to other card games like Pokemon, but Cat based.
 Take a screenshot and share it with your friends 😺`,
-  },
-
-  {
-    icon: faRedditAlien,
-    name: "Red-dit",
-    href: "#",
-    text: `This web app is part of CodeCademy's Front End Development Engineering curriculum. For this project the objective is to create a web app that uses the Reddit API, React, Redux and OAuth 2.0. The application will allow users to view and search posts and comments provided by the API.`,
   },
 
   // {
