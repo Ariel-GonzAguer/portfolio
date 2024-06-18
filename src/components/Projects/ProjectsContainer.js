@@ -22,7 +22,7 @@ const projects = [
     icon: faRedditAlien,
     name: "Red-dit",
     href: "red-dit.netlify.app/",
-    text: `This web app is part of CodeCademy's Front End Development Engineering curriculum. For this project the objective is to create a web app that uses the Reddit API, React, Redux and OAuth 2.0. The application will allow users to view and search posts and comments provided by the API.`,
+    text: `This web app is part of CodeCademy's Front End Development Engineering curriculum. For this project the objective is to create a web app that uses the Reddit API, React, Redux and OAuth 2.0. The application will allow users to view and search posts provided by the API.`,
   },
 
   {
