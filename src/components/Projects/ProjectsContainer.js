@@ -63,7 +63,7 @@ export default function ProjectsContainer() {
   return (
     <section className={`${styles.projectsSection} ${styles.slideInFwdCenter}`}>
       <Tooltip id="my-tooltip" className={styles.tooltip} />
-      <h2>Check out my favorites projects</h2>
+      {/* <h2>Check out my favorites projects</h2> */}
       <p>{currentProject}</p>
       <div className={styles.vento}>
         {projects.map((project, index) => (
